@@ -2,9 +2,9 @@ FROM dockerfile/python
 
 RUN \
   cd /usr/src && \
-  wget https://iojs.org/dist/v1.0.1/iojs-v1.0.1.tar.gz && \
-  tar zxf iojs-v1.0.1.tar.gz && \
-  cd iojs-v1.0.1 && \
+  wget https://iojs.org/dist/v1.0.1/iojs-v1.0.3.tar.gz && \
+  tar zxf iojs-v1.0.3.tar.gz && \
+  cd iojs-v1.0.3 && \
   ./configure && \
   make && \
   make install && \
